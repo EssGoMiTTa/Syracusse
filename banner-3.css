@@ -1,0 +1,122 @@
+body {
+    /* Typography Declaration */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    
+  }
+  
+  .masthead-heading,
+  .masthead-intro,
+  .content-footer {
+    text-align: center;
+  }
+
+  /* .container h1{
+    border: 3px solid rgb(73, 73, 150);
+    width: 13%;
+  } */
+
+  .container h1{
+    letter-spacing: .08em;
+  }
+
+  .logo-1{
+    width: 20%;
+    height: 150px;
+    margin-left: 40%;
+    background-image: url(imagenes/logo1.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+  }
+
+  .logo-2{
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    background-image: url(imagenes/logo2.png);
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+  }
+  
+  .masthead {
+    padding: 11em 0;
+    background-image: url('imagenes/ban3.1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .masthead-intro {
+    /* Text Declarations */
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic," Georgia, serif;
+    font-size: 4em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+  }
+  
+  
+  .masthead-heading {
+    /*Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: light;
+    font-size: 1.5em;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  
+  /* Text Declarations for Sections */
+  
+  .introduction-section > p,
+  .location-section > p,
+  .content-footer > p,
+  .questions-section > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Section Styling */
+  
+  .introduction-section,
+  .location-section,
+  .questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  
+  .questions-section > h2 {
+    /*Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.1 em;
+    font-weight: bold;
+    color: #222222;
+  }
+  
+
+  @media (max-width: 1280px){
+    
+    .masthead-heading,
+  .masthead-intro,
+  .content-footer {
+    text-align: center;
+  }
+
+    .masthead {
+      height: 100px;
+      padding: 11em 0;
+    }
+
+}
+
+@media (max-width: 1090px){
+
+    
+}

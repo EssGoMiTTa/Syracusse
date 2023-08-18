@@ -1,0 +1,94 @@
+.face{
+    background: rgb(248, 180, 120);
+	background: linear-gradient(120deg, rgb(255, 208, 168) 0%, rgb(214, 89, 0) 72%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d57118",endColorstr="#d6003b",GradientType=1);
+	border:none;
+	border-radius:20em;
+	box-shadow:-1px 2px 7px rgba(213,78,24,.4),1px -1px 7px rgba(7,6,25,.4);
+	color:#e8dff6;
+	font-size:1.3em;
+	letter-spacing:1px;
+	margin-left:240px;	
+	margin-top:28em;
+	padding:.8em 3em;
+	position:absolute;
+	text-shadow:0px 0px 3px rgba(200,200,200,.4);
+	transition:background-size .9s ease-in;
+	z-index:1;
+    cursor: pointer;
+}
+
+.face:hover{
+    backface-visibility:hidden;
+	background-size:150%;
+	box-shadow:1px 2px 7px rgba(213,78,24,.3),1px 1px 10px rgba(7,6,25,.3);
+	cursor:pointer;
+	text-shadow:0px 0px 4px rgba(0,0,0,.4);
+	transition:background-size .9s ease-in;
+	transform:scale(0.98)!important;
+}
+
+#btn{
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    font-weight: bold;
+    background-color: black;
+    letter-spacing: 3px;
+    color: bisque;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left:11%;	
+	margin-top:16%;
+    z-index:1;
+    transition:background-size .9s ease-in;
+}
+
+#btn:hover{
+    background-color: bisque;
+    color: black;
+}
+
+@media only screen and (max-width: 1800px){
+	#btn{
+        margin-top:20%;
+    }
+}
+
+
+@media only screen and (max-width: 1090px){
+	#btn{
+        margin-top:30%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+	#btn{
+        margin-top:35%;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px){
+	.face{margin-left:33%}
+    #btn{
+        margin-top:40%;
+    }
+
+}
+
+@media only screen and (max-width: 567px){
+	.face{margin:31em 10% 3em 5%;width:90%;height: 50px;}
+
+    #btn{
+        margin-top:55%;
+    }
+
+    
+
+}
+
+
+

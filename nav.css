@@ -1,0 +1,328 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: flex;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+    transition: all .50s ease;
+    position: sticky;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.ri-syra_Mesa-de-trabajo-1:before {
+    content: "\e900";
+  }
+
+.logo i{
+    font-size: 28px;
+    margin-right: 3px;
+
+}
+
+.logo span{
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+
+.dropdown-content a:hover{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.navbar a.active{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.main .active {
+    color: rgba(243, 203, 155, 0.956);
+    }
+
+.dropdown-content a.active{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.main{
+    display: flex;
+    align-items: center;
+}
+
+.main .bie{
+    color: black;
+
+}
+
+
+.main a{
+    margin-right: 25px;
+    margin-left: 10px;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.main a:hover{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user i{
+    color: black;
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.main2 a{
+    margin-right: 25px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.main2 .active {
+color: rgba(243, 203, 155, 0.956);
+}
+
+.main2 .base2{
+    color: black;
+}
+
+.main2 a:hover{
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.main2{
+    display: flex;
+    align-items: center;
+    color: rgba(243, 203, 155, 0.956);
+}
+
+
+.user2 i{
+    color: rgba(243, 203, 155, 0.956);
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.user2{
+    display: flex;
+    align-items: center;
+    color: rgba(243, 203, 155, 0.956);
+}
+
+.main3 a{
+    margin-right: 25px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: all .50s ease;
+}
+
+.main3 .active {
+color: rgba(0, 0, 0, 0.956);
+}
+
+.main3 .base2{
+    color: black;
+}
+
+.main3 a:hover{
+    color: rgba(0, 0, 0, 0.956);
+}
+
+.main3{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.956);
+}
+.user3 i{
+    color: rgba(0, 0, 0, 0.956);
+    font-size: 28px;
+    margin-right: 7px;
+}
+
+.user3{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.956);
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: black;
+    cursor: default;
+    z-index: 10001;
+    display: none;
+}
+
+.item-menu-sub-menu{
+    position: absolute;
+    left: -150px;
+}
+
+
+@media (max-width: 1280px){
+    header{
+        padding: 14px 2%;
+        transition: all .2s;
+    }
+
+    .navbar a{
+        padding: 5px 0;
+        margin: 0px 20px;
+
+    }
+}
+
+@media (max-width: 1090px){
+
+    .item-menu-sub-menu{
+        position: relative;
+    }
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+
+    .navbar a{
+        display: block;
+        margin: 12px 0;
+        padding: 0px 25px;
+        transition: all.50s ease;
+    }
+
+    .navbar a:hover{
+        color: beige;
+        transform: translateY(5px);
+    }
+
+    .navbar a.active{
+        color: bisque;
+    }
+
+    .navbar.open{
+        right: 2%;
+    }
+}
+
+@media (max-width: 860px){
+
+.item-menu-sub-menu{
+    margin-left: 26%;
+}
+}
+
+/*Botón Menu*/
+.drop-button{
+    background-color:  rgb(255, 255, 255);
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+  /*Botón hover y focus*/
+  .drop-button:hover, drop-buttton:hover{
+    background-color: rgb(255, 255, 255);
+}
+  
+  /*Posición del contenedor*/
+  .dropdown{
+    position: relative;
+    display: inline-block;
+}
+  
+  /*submenu*/
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 700px;
+    height: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: -200px;
+}
+  
+  .dropdown-content a{
+    color: #000000;
+    padding: 15px 16px;
+    display: block;
+}
+  
+  .dropdown-content a:hover{
+    background-color: #f1f1f1
+}
+  .show {
+    display: block;
+}
+
+  .menu-vertical{
+	position: absolute;
+    display: flex;
+    display: none;
+	list-style: none;
+	width: 200px;
+    left: 615px;
+    top: 10%;
+	background-color: transparent;
+    color: black;
+}
+
+.navbar .menu-vertical li:hover {
+	display: block;
+}

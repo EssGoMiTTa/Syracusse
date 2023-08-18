@@ -1,0 +1,235 @@
+.division-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.texto-1{
+    background-color: rgb(255, 255, 255);
+    width: 29%;
+    height: 300px;
+}
+
+.titulo-1{
+    margin-top: 20%;
+    font-size: 3rem;
+}
+
+
+.imagenes-1{
+    width: 30%;
+    height: 700px; 
+    background-image: url(imagenes/tela1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px 15px;
+}
+
+.imagenes-1-1{
+    width: 30%;
+    height: 700px;
+    background-image: url(imagenes/tela2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.division-2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.texto-2{
+    background-color: rgb(255, 255, 255);
+    width: 29%;
+    height: 300px;
+}
+
+.titulo-2{
+    margin-top: 20%;
+    font-size: 3rem;
+}
+
+
+.imagenes-2{
+    width: 30%;
+    height: 700px; 
+    background-image: url(imagenes/tela5.1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px 15px;
+}
+
+.imagenes-2-2{
+    width: 30%;
+    height: 700px;
+    background-image: url(imagenes/tela3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.division-3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.texto-3{
+    background-color: rgb(255, 255, 255);
+    width: 29%;
+    height: 300px;
+}
+
+.titulo-3{
+    margin-top: 20%;
+    font-size: 3rem;
+}
+
+
+.imagenes-3{
+    width: 30%;
+    height: 700px; 
+    background-image: url(imagenes/tela4.1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px 15px;
+}
+
+.imagenes-3-1{
+    width: 30%;
+    height: 700px;
+    background-image: url(imagenes/tela6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media (max-width: 1090px){
+
+    .titulo-1{
+        font-size: 2.5rem;
+    }
+    
+    .sub-titulo-1-1{
+        font-size: 0.8rem;
+    }
+    
+    .sub-titulo-1-2{
+        font-size: 0.8rem;
+    }
+
+    .titulo-2{
+        font-size: 2.5rem;
+    }
+    
+    .sub-titulo-2-1{
+        font-size: 0.8rem;
+    }
+    
+    .sub-titulo-2-2{
+        font-size: 0.8rem;
+    }
+
+    .titulo-3{
+        font-size: 2.5rem;
+    }
+    
+    .sub-titulo-3-1{
+        font-size: 0.8rem;
+    }
+    
+    .sub-titulo-3-2{
+        font-size: 0.8rem;
+    }
+
+    
+}
+
+@media (max-width: 650px){
+
+    .division-1 {
+        margin-top: 6%;
+        height: 550px;
+
+    }
+
+    .titulo-1{
+        padding-top: 45%;
+        font-size: 2rem;
+    }
+    
+    .sub-titulo-1-1{
+        font-size: 0.6rem;
+    }
+    
+    .sub-titulo-1-2{
+        font-size: 0.6rem;
+    }
+
+    .division-2 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        height: 550px;
+
+    }
+
+    .titulo-2{
+        margin-top: 45%;
+        font-size: 2rem;
+        margin-left: 10%;
+    }
+    
+    .sub-titulo-2-1{
+        font-size: 0.6rem;
+    }
+    
+    .sub-titulo-2-2{
+        font-size: 0.6rem;
+    }
+
+    .division-3 {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        height: 550px;
+
+    }
+
+    .titulo-3{
+        margin-top: 45%;
+        font-size: 2rem;
+    }
+    
+    .sub-titulo-3-1{
+        font-size: 0.6rem;
+    }
+    
+    .sub-titulo-3-2{
+        font-size: 0.6rem;
+    }
+
+    
+}

@@ -1,0 +1,138 @@
+.fondo-img img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    top: 100px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.sec-img{
+    background-color: black;
+    opacity: 0.5;
+    width: 52.5%;
+    height: 400px;
+    margin-top: 0.1%;
+    margin-left: 47.5%;
+    text-align: center;
+}
+
+.sec-img .intro-1{
+    font-family: courier;
+    font-size: 2rem;
+    color: white;
+    padding-top: 9%;
+    
+}
+
+.sec-img .intro-2{
+    font-family: 'Dancing script';
+    font-size: 3rem;
+    color: white;
+    padding-top: 0%;
+    
+}
+
+.sec-img .intro-3{
+    font-family: courier;
+    font-size: 2rem;
+    color: white;
+    padding-top: 1%;
+
+}
+
+.sec-img .intro-4{
+    font-family: 'Dancing script';
+    font-size: 3rem;
+    color: white;
+    padding-top: 0%;
+ 
+}
+
+.sec-img .intro-5{
+    color: white;
+    padding-top: 1%;
+    width: 70%;
+    padding-left: 30%;
+}
+
+
+@media (max-width: 1280px){
+
+    .sec-img{
+        background-color: black;
+        opacity: 0.5;
+        width: 52.5%;
+        height: 400px;
+        margin-top: 2.3%;
+        margin-left: 47.5%;
+        text-align: center;
+    }
+
+    .sec-img .intro-1{
+        padding-top: 14%;
+        
+    }
+
+}
+
+@media (max-width: 1090px){
+
+    .sec-img{
+        background-color: black;
+        opacity: 0.5;
+        width: 52.5%;
+        height: 400px;
+        margin-top: 0.7%;
+        margin-left: 47.5%;
+        text-align: center;
+    }
+
+    .sec-img .intro-1{
+        padding-top: 20%;
+        
+    }
+}
+
+@media (max-width: 700px){
+
+    .sec-img{
+        background-color: black;
+        opacity: 0.5;
+        width: 52.5%;
+        height: 400px;
+        margin-top: 1.5%;
+        margin-left: 47.5%;
+        text-align: center;
+    }
+
+    .sec-img .intro-1{
+
+        font-size: 1.5rem;
+        padding-top: 45%;
+        
+    }
+    
+    .sec-img .intro-2{
+
+        font-size: 2rem;   
+    }
+    
+    .sec-img .intro-3{
+
+        font-size: 1.5rem;
+    
+    }
+    
+    .sec-img .intro-4{
+
+        font-size: 2rem;
+
+    }
+
+    .sec-img .intro-5{
+
+        padding-top: 5%;
+
+    }
+}
